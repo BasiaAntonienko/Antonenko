@@ -15,7 +15,8 @@ def draw():
         print (mouseX, mouseY, 50, 60)
     else:
         rect( mouseX, 30, mouseY, 40)
-        
+ 
+# poprawnie: 2pkt    
 
         
 
