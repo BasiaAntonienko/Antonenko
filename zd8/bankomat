@@ -1,0 +1,14 @@
+Bankomat
+
+KlasaBankomat()
+atrybut_login
+metoda: logowanie
+atrybut_srodki.dostepne
+metoda: wyplacanie gotowki
+metoda: wplacanie gotowki
+
+KlasaClient()
+atrybut_konto
+metoda: sprawdzenie.konta
+atrybut_login
+metoda: logowanie
