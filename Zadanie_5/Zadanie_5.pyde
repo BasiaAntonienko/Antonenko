@@ -62,7 +62,7 @@ def mouseClicked():
 def setup():
     size(cWidth,cHeight)
     global c
-    c=character()
+    c=character() # miały być utworzone z klasy dwa obiekty
 
 def draw():
     background(100)
@@ -88,3 +88,7 @@ def keyReleased():
         c.right = 0
     if keyCode == LEFT:
             c.left = 0
+# przydało by się po wjchaniu na końcowy prostokąt wyświetlić informację i zamknąć program :)
+# plus do aktywności za kreatywność
+# choć samo sterowanie widziałąm już takie samo w nie wiem ilu programach...
+#1,75pkt
