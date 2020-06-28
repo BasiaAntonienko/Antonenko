@@ -1,14 +1,16 @@
 Bankomat
 
 KlasaBankomat()
-atrybut_login
+atrybut_login # myślisz, że każdy bankomat przechowuje wszytkie loginy? włącznie z kontami zagranicznymi?
 metoda: logowanie
 atrybut_srodki.dostepne
 metoda: wyplacanie gotowki
 metoda: wplacanie gotowki
 
-KlasaClient()
+KlasaClient() # klient może mieć kilka kart i kont... to nienajlepsza nazwa, lepsza yłaby np. karta
 atrybut_konto
 metoda: sprawdzenie.konta
 atrybut_login
 metoda: logowanie
+
+#0,5/1,5pkt za tę część
