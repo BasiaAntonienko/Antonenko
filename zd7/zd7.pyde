@@ -22,9 +22,10 @@ class Dog(Pet):
     def mikusia(self):
         image(loadImage("mika.jpg.jpg"), random(50, width-70), random(50, height-100))
         tint (0,200, 255)
-    def __add__(self, other):
+    def __add__(self, other): # miało być odejmowanie
         return self.name[0]+ ' i ' + other.name[0]
 class GuineaPig(Pet):
+    # tu miało być nadpisanie metody abstrakcyjnej
     pass
     
 def setup():
@@ -32,6 +33,7 @@ def setup():
     textSize(50)
     mika = Dog('Mika') #Mój pies
     czarek = Cat('Czarek') #Mój kot
+    # a świnka?
     global list_of_pets
     list_of_pets = [mika, czarek]
     print(isinstance(czarek, Pet))
@@ -45,3 +47,4 @@ def mouseClicked():
         pet.speak()
         if isinstance(pet, Dog):
              pet.mikusia()
+# 0,75pkt
