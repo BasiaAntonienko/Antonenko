@@ -9,6 +9,7 @@ def setup():
     beginRecord(PDF, "out1Zdjecie.pdf")
     print(random.random())
     okulary = loadImage("okulary.jpg")
+    okulary2 = '' # brak drugiej grafiki...
     print(type(img))
     fill(20,255,200)
     
@@ -22,6 +23,8 @@ def draw():
     
     
         
-def mousePressed():
+def mousePressed(): # przez zamykanie w  tym miejscu co klatkę rysuje nam się warstwa i czym dłużej otwarty program, tym więcej będzie ważył plik wyjściowy...
     endRecord()
     exit()
+    
+# 1,5pkt
