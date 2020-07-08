@@ -7,9 +7,11 @@ def draw():
     try:
         image(photo, height/2, width/2, 200, 200) 
     except:
-        stroke("#66CDAA")
+        stroke("#FF7F50")
         text("Nie udalo sie wczytac zdjecia", 100, 25)
     else:
-        stroke("#FF7F50")
+        stroke("#66CDAA")
     finally:
         rect(height/2-1, width/2-1, 200, 200)
+        
+#2pkt
